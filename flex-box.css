@@ -1,0 +1,35 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: orange;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: red;
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+    font-size: 50px;
+}
+
+#container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+
+#container-flex>div {
+    background-color: #f1f1f1;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
