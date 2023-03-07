@@ -1,0 +1,25 @@
+.caption{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+.container{
+    margin: 0, auto;
+    max-width: 1100px;
+}
+
+header{
+    background-color: lightcoral;
+    height: 30px;
+}
+header>.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner{
+    background-color: lightcoral;
+    width: 100px;
+    opacity: 0.5;
+}
